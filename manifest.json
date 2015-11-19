@@ -1,0 +1,12 @@
+{
+    "name":"Explorer",
+    "description":"Add the Explore tab to GitHub when logged in.",
+    "version":"1.0",
+    "manifest_version":2,
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["myscript.js"]
+        }
+    ]
+}
